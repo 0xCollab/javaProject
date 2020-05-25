@@ -3,7 +3,7 @@ checkout scm
 stage('Gradle Build') {
     
         sh './gradlew clean bootJar'
-    
+    println("Hi there"); 
     }
 
 
