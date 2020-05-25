@@ -1,3 +1,5 @@
+pipeline {
+
 node{
 checkout scm
 stage('Gradle Build') {
@@ -18,4 +20,5 @@ stage('Gradle Build') {
           //  }
         // }
 
+}
 }
