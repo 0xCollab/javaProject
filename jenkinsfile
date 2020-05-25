@@ -3,12 +3,13 @@ checkout scm
 stage('Gradle Build') {
     
         sh './gradlew clean bootJar'
-    system.out.pritln("I reach");
+   
     }
 
 
 // stage('Static code analysis') {
     //        steps {
+     system.out.pritln("I reach");
                 // Add SpotBugs here
      //           echo 'Invoking SonarQube'
        //         sh './gradlew sonarqube \
