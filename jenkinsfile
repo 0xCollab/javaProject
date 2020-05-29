@@ -6,10 +6,11 @@ tools{
   }
   
   stages{
-stage('Gradle Build') {
-    
-        //sh './gradlew clean bootJar'
-    println("Hi there"); 
+        stage('Gradle Build') {
+            steps{
+            //sh './gradlew clean bootJar'
+            println("Hi there"); 
+    }
     }
 
 
