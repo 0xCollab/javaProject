@@ -1,10 +1,14 @@
 pipeline {
 
-node{
-checkout scm
+
+tools{
+    gradle 'MVPGradle'
+  }
+  
+  stages{
 stage('Gradle Build') {
     
-        sh './gradlew clean bootJar'
+        //sh './gradlew clean bootJar'
     println("Hi there"); 
     }
 
@@ -19,6 +23,5 @@ stage('Gradle Build') {
               
           //  }
         // }
-
 }
 }
