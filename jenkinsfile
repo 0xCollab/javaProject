@@ -1,9 +1,9 @@
 pipeline {
+agent any
 
-
-tools{
-    gradle 'MVPGradle'
-  }
+// tools{
+//    gradle 'MVPGradle'
+//  }
   
   stages{
         stage('Gradle Build') {
