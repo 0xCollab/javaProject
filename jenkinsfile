@@ -22,9 +22,9 @@ agent any
              //       -Dsonar.host.url=https://sonarqube.fortum.tech \
             //        -Dsonar.login=64568967bc199da7a8dc7bc9422200b8b47a4020'
             
-            withSonarQubeEnv() { // Will pick the global server connection you have configured
+          //  withSonarQubeEnv() { // Will pick the global server connection you have configured
       sh './gradlew sonarqube'
-    }
+ //   }
               
            }
          }
