@@ -78,8 +78,8 @@ sourceSets {
 //        downloadSources = true
  //   }
 // }
-// sourceCompatibility = 1.8
-// targetCompatibility = 1.8
+ sourceCompatibility = 1.8
+ targetCompatibility = 1.8
 
 // idea {
 //    project {
