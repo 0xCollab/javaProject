@@ -3,12 +3,12 @@ plugins {
   id "org.sonarqube" version "2.6"
 }
 
-buildscript {
-  ext {
-    lombokVersion = '1.16.20'
-    logbackVersion = '1.2.3'
-    slf4jVersion = '1.7.25'
-  }
+// buildscript {
+//  ext {
+//    lombokVersion = '1.16.20'
+ //  logbackVersion = '1.2.3'
+ //   slf4jVersion = '1.7.25'
+ // }
   
   dependencies {
     classpath "io.franzbecker:gradle-lombok:1.14"
