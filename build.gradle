@@ -68,25 +68,25 @@ sourceSets {
 // }
 
 
-idea {
-    project {
-        vcs = "Git"
-    }
-    module {
-        downloadSources = true
-    }
-}
+// idea {
+ //   project {
+ //       vcs = "Git"
+ //   }
+ //   module {
+//        downloadSources = true
+ //   }
+// }
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-idea {
-    project {
-        vcs = "Git"
-    }
-    module {
-        downloadSources = true
-    }
-}
+// idea {
+//    project {
+//        vcs = "Git"
+//    }
+//    module {
+//        downloadSources = true
+ //   }
+// }
 
 repositories {
     mavenLocal()
