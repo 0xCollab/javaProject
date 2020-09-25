@@ -10,9 +10,9 @@ plugins {
  //   slf4jVersion = '1.7.25'
  // }
   
-  dependencies {
+//  dependencies {
   //  classpath "io.franzbecker:gradle-lombok:1.14"
-    classpath "gradle.plugin.com.github.spotbugs:spotbugs-gradle-plugin:1.6.2"
+ //   classpath "gradle.plugin.com.github.spotbugs:spotbugs-gradle-plugin:1.6.2"
   }
 // }
 
