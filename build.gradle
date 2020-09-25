@@ -17,6 +17,8 @@ plugins {
 // }
 
 apply plugin: "java"
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
 // apply plugin: "com.github.spotbugs"
 // apply plugin: "io.franzbecker.gradle-lombok"
 
@@ -76,8 +78,8 @@ sourceSets {
 //        downloadSources = true
  //   }
 // }
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+// sourceCompatibility = 1.8
+// targetCompatibility = 1.8
 
 // idea {
 //    project {
