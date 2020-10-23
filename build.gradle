@@ -12,17 +12,17 @@ plugins {
  //   slf4jVersion = '1.7.25'
  // }
   
-  dependencies {
-    classpath "io.franzbecker:gradle-lombok:1.14"
+ // dependencies {
+ //   classpath "io.franzbecker:gradle-lombok:1.14"
  //   classpath "gradle.plugin.com.github.spotbugs:spotbugs-gradle-plugin:1.6.2"
- }
+// }
 
 
 apply plugin: "java"
 // sourceCompatibility = JavaVersion.VERSION_1_7
 // targetCompatibility = JavaVersion.VERSION_1_7
 // apply plugin: "com.github.spotbugs"
- apply plugin: "io.franzbecker.gradle-lombok"
+// apply plugin: "io.franzbecker.gradle-lombok"
 
 
 defaultTasks 'clean', 'check'
