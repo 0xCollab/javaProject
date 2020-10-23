@@ -27,9 +27,9 @@ agent any
  //   }
  
  ./gradlew sonarqube \
-  -Dsonar.projectKey=JavaCode_Scan \
-  -Dsonar.host.url=http://localhost:9000/ \
-  -Dsonar.login=515005b833205ae756578c41e3daabd09d51877a
+  -Dsonar.projectKey=JavaCode \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=d0fbf8cd74399ca03a7bfec98ee49eda972a5f80
               
               
            }
