@@ -28,11 +28,11 @@ agent any
  
  ./gradlew sonarqube \
   -Dsonar.projectKey=JavaCode_Scan \
-  -Dsonar.host.url=http://172.17.0.1:9000 \
+  -Dsonar.host.url=http://localhost:9000 \
   -Dsonar.login=515005b833205ae756578c41e3daabd09d51877a
               
               
            }
          }
 }
-}
+
